@@ -1,0 +1,51 @@
+body
+{
+	
+}
+#contenedor
+{	
+	max-width: 1160px;
+	margin:0px auto;
+	border: 0px solid;
+}
+#entrada
+{
+	width: 50%;
+	height: 500px;
+	border: 1px solid;
+	display: inline-block;
+	margin-left: 5%;
+	margin-top: 100px;
+	vertical-align: top;
+}
+#entrada select
+{
+	height: 40px;
+}
+#salida
+{
+	width: 40%;
+	border: 1px solid;
+	display: inline-block;
+	margin-top: 100px;
+}
+option
+{
+	width: 100%;
+}
+textarea
+{
+	width: 80%;
+	height:400px;
+}
+
+#mostrar
+{
+	border: 1px solid #e8e8e8;
+	color:#333333;
+}
+#carrera
+{
+	color:#333333;
+	font-weight: bold;
+}
