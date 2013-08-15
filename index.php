@@ -11,9 +11,8 @@
 </head>
 <body>
 	<section id="contenedor">
-	<section id="entrada">
-		<form action="" name="ingeso" method="POST">
-			<select name="carrera" >
+	<section id="entrada">		
+			<select id ="car"name="carrera" >
 				<option value="">Escoje tu carrera</option>
 				<option value="Administración de Empresas">Administración de Empresas</option>
 				<option value="Contaduría Pública">Contaduría Pública</option>
@@ -31,18 +30,16 @@
 				<option value="Tecnología en Sistemas">Tecnología en Sistemas</option>
 				<option value="Técnica Profesional en Medios Audiovisuales">Técnica Profesional en Medios Audiovisuales</option>
 			</select><br><br>
-			Ingresa tu comentario
-			<textarea name="comentario" placeholder="comentario">
-			</textarea>
-			<input type="submit" value="enviar">
-		</form>
+			<p>Ingresa tu comentario</p>
+			<textarea name="comentario" id="com" required></textarea>
+			<input type="button" id="boton" value="enviar">
 	</section>
-	
 	<section id="salida">
-	<?php
-	require_once('ingresar.php');
-	?>
+		<?php
+			include("mostrar.php");
+		?>
 	</section>
+
 	</section>
 </body>
 </html>

@@ -1,6 +1,6 @@
 body
 {
-	
+	background:url(../images/fondo.png);
 }
 #contenedor
 {	
@@ -11,37 +11,56 @@ body
 #entrada
 {
 	width: 50%;
-	height: 500px;
 	border: 1px solid;
 	display: inline-block;
 	margin-left: 5%;
 	margin-top: 100px;
 	vertical-align: top;
 }
+
 #entrada select
 {
 	height: 40px;
 }
 #salida
 {
-	width: 40%;
-	border: 1px solid;
+	width: 30%;
 	display: inline-block;
 	margin-top: 100px;
 }
 option
 {
 	width: 100%;
+	margin:0px 0px 20px 20px;
 }
-textarea
+p
 {
-	width: 80%;
-	height:400px;
+	color:#fff;
+	margin:0px 0px 20px 20px;
+}
+#entrada textarea
+{
+	width: 70%;
+	height: 50px;
+	outline-color: #115082;
+	margin:0px 0px 20px 20px;
+}
+
+
+#entrada input[type='button']
+{
+	background: #29166f;
+	width: 20%;
+	height: 50px;
+	margin:0px 0px 20px 20px;
+	border-radius: 10px;
+	vertical-align: top;
+	color: #fff;
 }
 
 #mostrar
-{
-	border: 1px solid #e8e8e8;
+{	
+	border-bottom: 1px solid #115082;;
 	color:#333333;
 }
 #carrera
